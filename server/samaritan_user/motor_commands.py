@@ -90,13 +90,11 @@ def clockwise():
     # Motor B:
     GPIO.output(15, GPIO.HIGH) # Set BIN1
     GPIO.output(16, GPIO.LOW) # Set BIN2
-
     # Set the motor speed
     # Motor A:
     GPIO.output(7, GPIO.HIGH) # Set PWMA
     # Motor B:
     GPIO.output(18, GPIO.HIGH) # Set PWMB
-
     # Disable STBY (standby)
     GPIO.output(13, GPIO.HIGH)
 
@@ -144,13 +142,11 @@ def backwards(): # TODO: Make sure correct
     # Motor B:
     GPIO.output(15, GPIO.HIGH) # Set BIN1
     GPIO.output(16, GPIO.LOW) # Set BIN2
-
     # Set the motor speed
     # Motor A:
     GPIO.output(7, GPIO.HIGH) # Set PWMA
     # Motor B:
     GPIO.output(18, GPIO.HIGH) # Set PWMB
-
     # Disable STBY (standby)
     GPIO.output(13, GPIO.HIGH)
 
