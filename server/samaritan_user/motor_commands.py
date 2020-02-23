@@ -166,24 +166,24 @@ def stop():
 
 # Test script:
 
-# Move backwards
-move_both(-50.0, -50.0)
-time.sleep(2)
-
-# Move forwards
-move_both(50.0, 50.0)
-time.sleep(2)
-
-# Move left
-move_both(-50.0, 50.0)
-time.sleep(2)
-
-# Move right
-move_both(50.0, -50.0)
-time.sleep(2)
-
-# Stop
-move_both(0.0, 0.0)
+# # Move backwards
+# move_both(-50.0, -50.0)
+# time.sleep(2)
+#
+# # Move forwards
+# move_both(50.0, 50.0)
+# time.sleep(2)
+#
+# # Move left
+# move_both(-50.0, 50.0)
+# time.sleep(2)
+#
+# # Move right
+# move_both(50.0, -50.0)
+# time.sleep(2)
+#
+# # Stop
+# move_both(0.0, 0.0)
 
 # # Move backwards
 # move_both(-1.0, -1.0)
