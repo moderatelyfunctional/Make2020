@@ -24,7 +24,8 @@ from samaritan_user.models import SamaritanState, SamaritanKeyDown
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', samaritan_user.views.index),
-    path('send_key/', samaritan_user.views.drive)
+    path('send_key/', samaritan_user.views.drive),
+    path('webcam/', samaritan_user.views.feed)
 ]
 
 state_exists = SamaritanState.objects.exists()

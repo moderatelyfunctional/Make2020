@@ -11,7 +11,7 @@ cam = None
 
 # Create your views here.
 def index(request):
-	if cam = None:
+	if cam == None:
 		cam = CustomPiCam()
 
 	context = dict()
