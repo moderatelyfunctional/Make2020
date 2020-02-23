@@ -24,7 +24,7 @@ SECRET_KEY = '&cki))bz=(9jfq5zlj&ntdzkl^1fp0k73^r=(+j7#qz@z^&$($'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['makemit.ddns.net']
 
 
 # Application definition
