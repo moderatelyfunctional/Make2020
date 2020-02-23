@@ -1,7 +1,16 @@
-body {
-	background-color: red;
+.custom-navbar {
+	background-color: #30bcfc;
 }
 
-.custom-navbar {
-	background-color: green;
+.white-text {
+	color: white;
+}
+
+.margin-right {
+	margin-right: 20px;
+}
+
+.navbar-nav {
+	display: flex;
+	flex-flow: row nowrap;
 }

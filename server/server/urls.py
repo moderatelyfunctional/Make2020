@@ -20,5 +20,6 @@ import samaritan_user.views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', samaritan_user.views.index)
+    path('', samaritan_user.views.index),
+    path('send_key/', samaritan_user.views.drive)
 ]
